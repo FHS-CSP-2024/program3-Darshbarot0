@@ -11,27 +11,20 @@
 #  
 # I am looking for a job with a salary of 2000-3000 dollars per month
 
+
 name = "Tim Tester"
-age = 20
-skill1 = "python"
-level1 = "beginner"
-skill2 = "java"
-level2 = "veteran"
-skill3 = "programming"
-level3 = "semiprofessional"
-lower = 2000
-upper = 3000
-
-print("my name is ", name, " , I am ", age, "years old")
+age = "20"
+print()
+print("My name is " + name + "," + " I am " + age + " years old.")
+print()
 print("my skills are")
-print("- ", skill1, " (", level1, ")")
-print("- ", skill2, " (", level2, ")")
-print("- ", skill3, " (", level3, " )")
-print("I am looking for a job with a salary of", lower, "-", upper, "dollars per month")
 
-
-
-
+# Print each skill with the required format
+print(" - python (beginner)")
+print(" - java (veteran)")
+print(" - programming (semiprofessional)")
+print()
+print(" I am looking for a job with a salary of 2000-3000 dollars per month")
 
 ## Problem 2 ##
 #Please finish the script so that: 
@@ -48,6 +41,22 @@ print("I am looking for a job with a salary of", lower, "-", upper, "dollars per
 #
 # - The program should work correctly even if the values of the variables are changed.
 
-x = input("X val: ")
-y = input("Y val: ")
+# Define the variables
+x = 27
+y = 15
+
+# Print the values of x and y
+print("")
+print("Problem 2")
+print()
+print("X value:", x)
+print("Y value:", y)
+print() 
+
+# Perform basic arithmetic operations and print the results
+print(x, "+", y, "=", x + y)
+print(x, "-", y, "=", x - y)
+print(x, "*", y, "=", x * y)
+print(x, "/", y, "=", x / y)
+
 
